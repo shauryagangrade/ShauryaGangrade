@@ -73,8 +73,7 @@ This project is one example of that.
 
 [![Shaurya's GitHub stats](https://github-readme-stats.vercel.app/api?username=shauryagangrade)](https://github.com/anuraghazra/github-readme-stats)
 
-
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=shauryagangrade)](https://git.io/streak-stats)
 
 
 
