@@ -45,6 +45,32 @@ This project wasn’t about finance — it was about:
 
 ---
 
+### 🗺️ StudyMap
+
+**A crowdsourced map of student-relevant places across the Mumbai Metropolitan Region**
+
+Co-developed StudyMap with Anay Dhawan — an open-source platform that helps students discover important locations like exam centres, libraries, book shops, stationery stores, internet cafés, and transit points across Mumbai, Thane, and Navi Mumbai.
+
+The system is designed to be **simple, accessible, and community-driven** — with zero setup and a fully GitHub-based contribution model.
+
+**What I did:**
+
+* Worked on structuring location data into a consistent, scalable schema
+* Helped design the data ingestion model (JSON-based, category-wise storage)
+* Built parts of the frontend map experience and filtering logic
+* Contributed to system design for handling crowdsourced data reliably
+
+**Key takeaway:**
+StudyMap was about:
+
+> Building a real-world utility by structuring messy, distributed information into a clean, usable system.
+
+**Tech:** Next.js · Leaflet · TypeScript · Tailwind
+↗ GitHub: https://github.com/AnayDhawan/StudyMap
+↗ Live: https://study-map-psi.vercel.app
+
+---
+
 ## Technical Toolkit
 
 **Core:**
