@@ -41,6 +41,7 @@ This project wasn’t about finance — it was about:
 > Taking a vague, real-world problem and turning it into a concrete ML system.
 
 **Tech:** Python · Machine Learning
+
 ↗ GitHub: https://github.com/shauryagangrade/mule-account-detection-poc
 
 ---
@@ -66,7 +67,9 @@ StudyMap was about:
 > Building a real-world utility by structuring messy, distributed information into a clean, usable system.
 
 **Tech:** Next.js · Leaflet · TypeScript · Tailwind
+
 ↗ GitHub: https://github.com/AnayDhawan/StudyMap
+
 ↗ Live: https://study-map-psi.vercel.app
 
 ---
