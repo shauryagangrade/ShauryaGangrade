@@ -20,6 +20,69 @@ I’m not tied to one domain — I care more about:
 
 ## What I've Built
 
+### 🔐 PlaceMate
+
+**A local-first, encrypted system for managing personal physical inventory**
+
+Built PlaceMate as a privacy-first application for tracking real-world items (documents, valuables, storage locations) without relying on cloud infrastructure.
+
+The system is designed around a core principle:
+
+> Sensitive physical inventory data should never leave the user’s device.
+
+---
+
+**What it does:**
+
+* Lets users log items using natural language (e.g., *"Put passport in blue drawer"*)
+* Parses and structures item–location relationships automatically
+* Enables fast retrieval via conversational queries (e.g., *"Where is my passport?"*)
+* Stores all data locally with **AES-256 encryption**
+
+---
+
+**System Design Highlights:**
+
+* **Client-side architecture:** Entire system runs in the browser (no backend, no telemetry)
+* **Cryptography pipeline:**
+
+  * PBKDF2-based key derivation from master password
+  * AES-256-CBC encryption with randomized IVs
+* **Secure password rotation:**
+
+  * Full decrypt → re-encrypt cycle with new key
+  * Enforces non-reuse of previous passwords
+* **Mnemonic recovery system:**
+
+  * 12-word recovery phrase
+  * Used to securely encrypt and recover the master password
+* **Local storage engine:**
+
+  * IndexedDB/localStorage for encrypted state persistence
+
+---
+
+**What I built:**
+
+* Designed the **end-to-end client-side architecture** (UI ↔ NLP ↔ crypto ↔ storage)
+* Implemented **secure state management and encryption flows**
+* Built a lightweight NLP-style parser for extracting structured data from user input
+* Developed recovery and export systems with explicit security safeguards
+* Focused on making strong security usable in a real product
+
+---
+
+**Key takeaway:**
+
+> PlaceMate is not just a UI app — it’s a system that balances usability with strict security constraints, entirely on the client side.
+
+---
+
+**Tech:** Next.js / Vite · TypeScript · CryptoJS · IndexedDB
+↗ GitHub: https://github.com/shauryagangrade/PlaceMate
+↗ Live: place-mate-weld.vercel.app
+
+
 ### 🔍 Mule Account Detection (POC)
 
 **Applied ML to a real-world financial fraud problem**
