@@ -79,7 +79,9 @@ The system is designed around a core principle:
 ---
 
 **Tech:** Next.js / Vite · TypeScript · CryptoJS · IndexedDB
+
 ↗ GitHub: https://github.com/shauryagangrade/PlaceMate
+
 ↗ Live: place-mate-weld.vercel.app
 
 
