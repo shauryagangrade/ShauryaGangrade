@@ -82,7 +82,7 @@ The system is designed around a core principle:
 
 ↗ GitHub: https://github.com/shauryagangrade/PlaceMate
 
-↗ Live: https://www.place-mate-weld.vercel.app
+↗ Live: https://place-mate-weld.vercel.app
 
 
 ### 🔍 Mule Account Detection (POC)
