@@ -139,6 +139,33 @@ StudyMap was about:
 
 ---
 
+## Open Source Contribution — Tournament Parser Enhancement
+
+Contributed enhancements to improve tournament parsing accuracy, particularly for South Asian and colloquial contexts.
+
+### Key Improvements
+
+* Added support for Indian/Hinglish synonyms such as *"bijli"*, *"tez"*, *"shastriya"*, and *"jaldi"*
+* Expanded detection logic for tournament categories including *blitz*, *rapid*, and *classical* to handle informal naming variations
+* Improved FIDE rating recognition to include patterns like *"fide rated"*, *"rating tournament"*, and *"elo"*
+* Increased parser accuracy for regional and non-standard tournament formats
+
+### Impact
+
+These changes make the parser more inclusive and robust when handling real-world tournament data, especially from South Asian sources where naming conventions often differ from standard formats.
+
+### Technical Notes
+
+* Fully type-safe (no `any` types introduced)
+* Successfully builds with TypeScript
+* No credentials or sensitive data included
+* Follows existing project conventions for scraper structure and ID generation
+
+Live: https://www.tourneyradar.com
+GitHub: https://www.github.com/AnayDhawan/Tourneyradar
+
+---
+
 ## Technical Toolkit
 
 **Core:**
