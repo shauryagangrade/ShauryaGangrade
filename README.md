@@ -139,31 +139,68 @@ StudyMap was about:
 
 ---
 
-## Open Source Contribution — Tournament Parser Enhancement
+## Open Source Contributions — TourneyRadar Ecosystem
 
-Contributed enhancements to improve tournament parsing accuracy, particularly for South Asian and colloquial contexts.
+### 1. Tournament Parser Enhancement
 
-### Key Improvements
+Improved tournament parsing accuracy with a focus on real-world, non-standard, and South Asian naming conventions.
+
+**Links:**
+
+* Live: https://www.tourneyradar.com
+* GitHub: https://www.github.com/AnayDhawan/Tourneyradar
+
+#### Key Improvements
 
 * Added support for Indian/Hinglish synonyms such as *"bijli"*, *"tez"*, *"shastriya"*, and *"jaldi"*
-* Expanded detection logic for tournament categories including *blitz*, *rapid*, and *classical* to handle informal naming variations
-* Improved FIDE rating recognition to include patterns like *"fide rated"*, *"rating tournament"*, and *"elo"*
-* Increased parser accuracy for regional and non-standard tournament formats
+* Expanded detection logic for *blitz*, *rapid*, and *classical* formats to handle informal and colloquial variations
+* Enhanced FIDE rating recognition with patterns like *"fide rated"*, *"rating tournament"*, and *"elo"*
+* Improved parsing accuracy for regional and non-standard tournament formats
 
-### Impact
+#### Impact
 
-These changes make the parser more inclusive and robust when handling real-world tournament data, especially from South Asian sources where naming conventions often differ from standard formats.
+* Increased robustness when handling real-world tournament data
+* Better support for South Asian and informal naming conventions
+* More reliable classification across diverse data sources
 
-### Technical Notes
+#### Technical Highlights
 
 * Fully type-safe (no `any` types introduced)
-* Successfully builds with TypeScript
+* Clean TypeScript build with zero errors
 * No credentials or sensitive data included
-* Follows existing project conventions for scraper structure and ID generation
+* Adheres to existing scraper architecture and ID conventions
 
-Live: https://www.tourneyradar.com
-GitHub: https://www.github.com/AnayDhawan/Tourneyradar
+---
 
+### 2. TourneyRadar API Enhancements
+
+Extended the tournaments endpoint to support more flexible and precise querying.
+
+**Repository:** https://github.com/anaydhawan/tourneyradar-api
+
+#### Key Contributions
+
+* Added advanced filters to `GET /v1/tournaments`:
+
+  * `date_from` / `date_to`: ISO date range filtering using `gte` / `lte`
+  * `organizer`: Case-insensitive substring search (`ILIKE`) on `organizer_name`
+* Ensured compatibility with existing filters (`country`, `category`, `upcoming`, `fide_rated`)
+* Implemented robust input validation using **Zod**:
+
+  * Regex validation for ISO date format (`YYYY-MM-DD`)
+  * Minimum length constraints for organizer queries
+
+#### Impact
+
+* Enables more precise and flexible API queries
+* Improves developer experience and usability
+* Maintains full backward compatibility
+
+#### Technical Highlights
+
+* Preserves existing response structure and pagination
+* Follows established backend patterns and query composition design
+* Fully type-safe and aligned with project standards
 ---
 
 ## Technical Toolkit
