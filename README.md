@@ -12,6 +12,8 @@ Learn More about me at https://shauryagangrade.vercel.app
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=shauryagangrade)](https://git.io/streak-stats)
 
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shauryagangrade&theme=tokyo-night)]
+
 
 
 
