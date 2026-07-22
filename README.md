@@ -6,7 +6,7 @@ I start with observation.
 
 I notice a problem → understand it deeply → build a solution.
 
-## Learn More about me at https://shauryagangrade.vercel.app
+- Learn More about me at https://shauryagangrade.vercel.app
 
 ## Github Stats
 
