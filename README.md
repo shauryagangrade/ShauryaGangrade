@@ -8,13 +8,6 @@ I notice a problem → understand it deeply → build a solution.
 
 Learn More about me at https://shauryagangrade.vercel.app
 
-## Github Stats
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=shauryagangrade)](https://git.io/streak-stats)
-
-[![Shaurya's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shauryagangrade&theme=tokyo-night)](https://github.com/shauryagangrade)
-
-
 
 
 
