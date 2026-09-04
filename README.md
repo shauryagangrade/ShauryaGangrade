@@ -8,6 +8,8 @@ I notice a problem → understand it deeply → build a solution.
 
 Learn More about me at https://shauryagangrade.vercel.app
 
+Contact me at shauryagangrade11@gmail.com
+
 
 
 
